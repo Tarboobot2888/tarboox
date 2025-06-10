@@ -10,8 +10,8 @@ export default function DocsTabs() {
       <TabsContent value="curl">
         <pre className="bg-background p-3 rounded">curl -X POST /api/deobfuscate</pre>
       </TabsContent>
-      <TabsContent value="js">
-        <pre className="bg-background p-3 rounded">fetch('/api/deobfuscate')</pre>
+        <TabsContent value="js">
+        <pre className="bg-background p-3 rounded">{"fetch('/api/deobfuscate')"}</pre>
       </TabsContent>
     </Tabs>
   )
