@@ -25,10 +25,17 @@
   },
   "include": [
     "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
+    "pages/**/*",
+    "components/**/*",
+    "context/**/*",
+    "lib/deobfuscators/**/*",
+    "lib/serverOnly/**/*",
+    "lib/webcrack-wrapper.ts",
+    "types/**/*",
+    "__tests__/**/*"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "lib/webcrack"
   ]
 }
